@@ -1,0 +1,15 @@
+{
+  "name": "kickup-challenge",
+  "private": true,
+  "description": "Coding challenge used as part of KickUp's engineering recruiting process",
+  "scripts": {
+    "test": "echo \"Error: run 'npm run test-update', 'npm run test-debounce', or 'npm run test-all'\" && exit 1",
+    "test-update": "mocha 'testUpdate.js'",
+    "test-debounce": "mocha 'testDebounce.js'",
+    "test-all": "mocha 'testUpdate.js' 'testDebounce.js'"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "sinon": "^1.15.3"
+  }
+}
